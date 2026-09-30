@@ -1226,6 +1226,10 @@ table.standings tr.wc td:first-child { color: var(--gold); font-weight: 800; }
 .cover.type .cover-quote .who { display: block; margin-top: 8px; font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-style: normal; font-size: 7pt; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; color: var(--gold-lite); }
 .cover.type .cover-hed-block { bottom: 1.42in; }
+/* second pinned photo on the typographic cover (Week 3: Maye + Lawrence) */
+.cover.type .pin-photo.two { left: auto; right: .6in; top: 1.95in; width: 2.55in; z-index: 3; transform: rotate(5deg); }
+.cover.type .pin-photo.two img { height: 3.25in; }
+.cover.type .pin.two { left: auto; right: 1.8in; top: 1.8in; z-index: 4; }
 
 </style>
 <div class="rack">
@@ -1244,7 +1248,8 @@ table.standings tr.wc td:first-child { color: var(--gold); font-weight: 800; }
   </div>
   <div class="pin"></div>
   <div class="pin-photo"><img src="assets/w3_maye.jpg" alt="Drake Maye on the sideline with a coach, Patriots trailing 28-3" style="object-position:center 30%"/><div class="cap">Drake Mayday</div></div>
-  <div class="cover-quote">&#8220;you combine big mistakes with injuries and it&#8217;s a recipe for disaster.&#8221;<span class="who">Fart Toot Squeek &#183; on relegation &#183; S05 EP04, at 0-2</span></div>
+  <div class="pin two"></div>
+  <div class="pin-photo two"><img src="assets/w3_lawrence_wonder.jpg" alt="Comic-book illustration: a long-haired quarterback in a teal-and-gold Wonder Woman-style costume flies in to rescue a winless team" style="object-position:center 12%"/><div class="cap">help is on the way</div></div>
   <div class="cover-hed-block">
     <div class="cover-kicker">The Reigning Champion &#183; Fart Toot Squeek</div>
     <div class="cover-hed">THE CHAMPION<br/>IS 0-3.</div>
@@ -1274,7 +1279,7 @@ table.standings tr.wc td:first-child { color: var(--gold); font-weight: 800; }
           <p class="dek">The champion is 0-3. The numbers say he has been unlucky. The standings do not read numbers.</p>
           <div class="body drop">
             <p>Fart Toot Squeek has scored the fifth-most points in the Premier and given up the most, by 54.7. He lost Week 1 with the third-best score in the league. He holds the wild card this morning. He is also 0-3, in eleventh, and the first defending champion in league history to start a season without a win.</p>
-            <p>He lost this one to Boom Baum, who took a child&#8217;s advice, made two trades and won. The champion spent $34 of FAAB at 2:30 Wednesday morning and traded what he bought before breakfast.</p>
+            <p>He lost this one to Boom Baum, who took a child&#8217;s advice, made two trades and won.</p>
             <p>Downstairs, Amburgers scored 162.26, the most in either flight, and Jerry declared the Champeens the place where the party is. The champion already has a club down there, Mac Attack, in name only. He would prefer not to move in.</p>
           </div>
           <div class="pull">
@@ -1313,9 +1318,9 @@ table.standings tr.wc td:first-child { color: var(--gold); font-weight: 800; }
       <div class="overheard">
         <h3>Overheard</h3>
         <div class="oh-row">
-          <div class="oh"><div class="q">Then stop offering me Carnell Tate</div><div class="a">Jackin&#8217; Goff &#183; to Boom &#183; Thu 8:02 a.m.</div></div>
           <div class="oh"><div class="q">Marshawn Lynch = NFL Mark Twain</div><div class="a">All Gold, No Glory &#183; Thu 5:20 p.m. &#183; 6 reactions</div></div>
-          <div class="oh"><div class="q">It&#8217;s officially into Drake Maybe season</div><div class="a">The Guy Next Door &#183; Sun 1:26 p.m.</div></div>
+          <div class="oh"><div class="q">Jerry does Jerry things</div><div class="a">Jerry GM + Jerry Owner &#183; after tagging himself in a post &#183; Thu 8:54 p.m.</div></div>
+          <div class="oh"><div class="q">They got Jalen drinking diner coffee on the sideline?!</div><div class="a">The Guy Next Door &#183; Mon 8:20 p.m.</div></div>
         </div>
       </div>
     </div>
@@ -1340,7 +1345,7 @@ table.standings tr.wc td:first-child { color: var(--gold); font-weight: 800; }
         </figure>
         <div class="body drop">
           <p>Last week&#8217;s Point After promised that one of Boom Baum and Fart Toot Squeek would be 1-2 on Monday. It was decided at quarterback. Brock Purdy scored 35.28 for Boom. Drake Maye scored 2.76 for the champion. Jahmyr Gibbs gave the belt 37.9 and George Kittle 23.2, and it lost 122.08 to 113.96.</p>
-          <p>At 1:26 p.m., before the late games, the Guy Next Door had already filed the forecast: &#8220;It&#8217;s officially into Drake Maybe season&#8221;. By the fourth quarter it was Drake Mayday. At 8:35 p.m. All Gold, No Glory posted Maye on the sideline, down 28-3, being spoken to by a coach. The caption is not printable. Six people laughed.</p>
+          <p>At 1:26 p.m., before the late games, the Guy Next Door had already filed the forecast: &#8220;It&#8217;s officially into Drake Maybe season&#8221;. By the fourth quarter it was Drake Mayday. At 8:35 p.m. All Gold, No Glory posted Maye on the sideline, down 28-3, being spoken to by a coach. The caption is not printable. Six people laughed. One of them was the champion.</p>
           <p>Nobody has been here before. Every champion since 2017 has started his defense at 1-2 or better. The champion himself has opened 0-3 once, in 2017, and finished 5-7.</p>
         </div>
       </div>
@@ -1474,7 +1479,7 @@ table.standings tr.wc td:first-child { color: var(--gold); font-weight: 800; }
         <p>Adams stayed two days. Saturday Boom sent him to Goff with Woody Marks and Caleb Williams.</p>
         <p>Sunday Brock Purdy threw for 35.28 of Boom&#8217;s points, and Garrett Wilson, three days a Boom, caught 22.7. The champion had the other end of the 49ers. &#8220;Every time Purdy throws a touchdown and then I see it was to Kittle&#8221;, Boom wrote at 6:11 p.m. It did not matter. Boom Baum 122.08, Fart Toot Squeek 113.96.</p>
         <p>Monday: &#8220;If you take a hit (of trades) that helps the pain.&#8221; Tuesday All Gold&#8217;s Trade Time Machine delivered the verdict: &#8220;Looks like Boom traded for a win for once &#128521;&#8221;.</p>
-        <p>The timing was the best trading of his week. Sunday, Achane hurt his knee against the Chiefs in the Hineys&#8217; lineup, left with 1.7 and on Monday was ruled out for the season with a torn ACL. Breece Hall, one day a Boom, scored 7.0 and left the Lions game with a thigh injury; Monday he was week-to-week. Boom got out of one injury just in time, and into the other.</p>
+        <p>Then the injury report reviewed his work. Sunday, Achane hurt his knee against the Chiefs in the Hineys&#8217; lineup, left with 1.7 and on Monday was ruled out for the season with a torn ACL. Breece Hall, one day a Boom, scored 7.0 and left the Lions game with a thigh injury; Monday he was week-to-week. Boom got out of one injury just in time, and into the other.</p>
         <p>Then Boom went golfing with Otter, whose daughter had written him the letter, and filed a video report at 12:26 p.m.</p>
       </div>
       <div class="grid-spread row-fixed" style="grid-template-columns:2.1in 1fr;gap:14px;margin-top:4px;align-items:center;">
@@ -1552,8 +1557,8 @@ table.standings tr.wc td:first-child { color: var(--gold); font-weight: 800; }
           <p class="kicker">Monday Night</p>
           <h2>Mayhem, in Real Time</h2>
           <div class="body">
-            <p>At 7:28 p.m. Monday the Guy Next Door posted a new page, Monday Night Mayhem, showing &#8220;every matchup that&#8217;s still up for grabs in both leagues&#8221;. Cowboys September Dreams: &#8220;Oh good. I can watch my team fail in real time &#129760;&#8221;. Then a feature request: &#8220;Can you do one for chop league too ? So I can watch my teams fail in stereo&#8221;.</p>
-            <p>Jerry had his own plan: &#8220;All I need is a smooth 38.16 points from Dontayvion Wicks tonight&#8221;. Wicks scored 4.2. The Guy Next Door lost to the Jigba on the same screen, and the Jigba closed the night: &#8220;GG. I got lucky&#8221;.</p>
+            <p>At 7:28 p.m. Monday the Guy Next Door posted a new page, Monday Night Mayhem, showing &#8220;every matchup that&#8217;s still up for grabs in both leagues&#8221;. The Nightmares: &#8220;Oh good. I can watch my team fail in real time &#129760;&#8221;. Then a feature request: &#8220;Can you do one for chop league too ? So I can watch my teams fail in stereo&#8221;.</p>
+            <p>Jerry had his own plan: &#8220;All I need is a smooth 38.16 points from Dontayvion Wicks tonight&#8221;. The Nightmares, three minutes later: &#8220;Dear Wicks, please be JSN&#8221;. Wicks scored 4.2. All Gold, No Glory, at 8:03, on a catch: &#8220;I always get the feeling that even I could have made that catch while sitting on my couch and then I remember how I did at kickball during draft weekend&#8221;. Boom watched Case Keenum and made a decision: &#8220;I&#8217;m dropping my entire FAAB on Case Keenum&#8221;. The Guy Next Door lost to the Jigba on the same screen, and the Jigba closed the night: &#8220;GG. I got lucky&#8221;.</p>
           </div>
         </div>
         <div class="story">
@@ -1617,7 +1622,7 @@ table.standings tr.wc td:first-child { color: var(--gold); font-weight: 800; }
         </div>
         <div class="body">
           <p class="kicker" style="margin-bottom:2px;">Madison Beer</p>
-          <p>Madison Beer lost to Mac Attack 129.68 to 68.26 with Sam Darnold&#8217;s 30.66 on the bench, and spent Sunday night confiding. First, a lifelong Panthers fan whose name is on a statue outside the stadium. Then, at 9:59 p.m., to five reactions: &#8220;Another piece: I had a botched vasectomy on Friday because my shit is too meaty and the doc had to &#8220;throw in the towel&#8221;. Not kidding&#8221;.</p>
+          <p>Madison Beer lost to Mac Attack 129.68 to 68.26 with Sam Darnold&#8217;s 30.66 on the bench, and spent Sunday night confiding. First, a lifelong Panthers fan whose name is on a statue outside the stadium. Then, at 9:59 p.m., to five reactions: &#8220;Another piece: I had a botched vasectomy on Friday because my shit is too meaty and the doc had to &#8220;throw in the towel&#8221;. Not kidding&#8221;. At 10:24 p.m.: &#8220;I could use a vas god&#8221;.</p>
         </div>
       </div>
       <div style="display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:12px;margin-top:10px;">
@@ -1755,7 +1760,7 @@ table.standings tr.wc td:first-child { color: var(--gold); font-weight: 800; }
       <div class="row-fixed">
         <p class="kicker">The Desk</p>
         <h1 class="hed" style="font-size:30pt;">Five Upstairs, One Down</h1>
-        <p class="dek">Five Premier trades in six days, and Backdoor Heat was on three. Prices are the bot&#8217;s auction values.</p>
+        <p class="dek">Five Premier trades in six days, and Backdoor Heat was on three.</p>
       </div>
       <div class="timeline">
         <div class="deal-card" style="margin-bottom:4px;">
@@ -1812,7 +1817,7 @@ table.standings tr.wc td:first-child { color: var(--gold); font-weight: 800; }
       </div>
       <div class="box" style="margin-top:4px;">
         <h4>Heard at the Desk</h4>
-        <p>Jackin&#8217; Goff, 0-3, on future draft dollars: &#8220;maybe that&#8217;s how I set [Amburgers] up for success when I&#8217;m relegated.&#8221; Jerry, to the bot: &#8220;send [the Nightmares] the same info but do NOT let [Amburgers] see it&#8221;.</p>
+        <p>Jackin&#8217; Goff, 0-3: &#8220;maybe that&#8217;s how I set [Amburgers] up for success when I&#8217;m relegated.&#8221; Amburgers: &#8220;This might be the kindest thing anyone has ever said to me on this discord&#8221;. The Scott Ramsays: &#8220;I love you and you&#8217;re hawt&#8221;. Then: &#8220;Do I win? Am I the kindest now?&#8221;</p>
       </div>
       <div class="spacer"></div>
     </div>
